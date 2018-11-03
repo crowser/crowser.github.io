@@ -7,7 +7,7 @@ language: zh-CN
 timezone: Asia/Shanghai
 
 # 网址
-url: https://crowser.github.io/
+url: https://crowser.me
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
