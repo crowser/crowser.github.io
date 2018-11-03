@@ -5,9 +5,9 @@
   <subtitle>To.Live.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://crowser.github.io/"/>
+  <link href="https://crowser.me/"/>
   <updated>2018-11-02T17:00:54.924Z</updated>
-  <id>https://crowser.github.io/</id>
+  <id>https://crowser.me/</id>
   
   <author>
     <name>crowser</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>探索 Python 函数对象参数默认值陷阱</title>
-    <link href="https://crowser.github.io/2018/08/23/2018/%E6%8E%A2%E7%B4%A2-Python-%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1%E5%8F%82%E6%95%B0%E9%BB%98%E8%AE%A4%E5%80%BC%E9%99%B7%E9%98%B1/"/>
-    <id>https://crowser.github.io/2018/08/23/2018/探索-Python-函数对象参数默认值陷阱/</id>
+    <link href="https://crowser.me/2018/08/23/2018/%E6%8E%A2%E7%B4%A2-Python-%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1%E5%8F%82%E6%95%B0%E9%BB%98%E8%AE%A4%E5%80%BC%E9%99%B7%E9%98%B1/"/>
+    <id>https://crowser.me/2018/08/23/2018/探索-Python-函数对象参数默认值陷阱/</id>
     <published>2018-08-23T14:43:14.000Z</published>
     <updated>2018-11-02T17:00:54.924Z</updated>
     
@@ -34,7 +34,7 @@
     </summary>
     
     
-      <category term="python" scheme="https://crowser.github.io/tags/python/"/>
+      <category term="python" scheme="https://crowser.me/tags/python/"/>
     
   </entry>
   
