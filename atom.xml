@@ -42,9 +42,9 @@
     <link href="https://crowser.me/2018/12/05/2018/%E4%BB%80%E4%B9%88%E6%98%AF%E5%BE%AA%E7%8E%AF%E5%AF%BC%E5%85%A5/"/>
     <id>https://crowser.me/2018/12/05/2018/什么是循环导入/</id>
     <published>2018-12-05T14:53:46.000Z</published>
-    <updated>2018-12-05T15:05:21.854Z</updated>
+    <updated>2019-03-26T10:06:34.487Z</updated>
     
-    <content type="html"><![CDATA[<p>一句话解释这个问题: 在当前模块执行<code>import</code>的这些模块中, 导入了当前模块未创建的对象</p><a id="more"></a><p><strong>很啰嗦的解释这个问题:</strong></p><blockquote><p>我们知道,程序是从上至下运行的.<br><code>python</code>程序在<code>import</code>中去创建各个模块的名字空间, 且本模块未被执行的代码所代表的对象是没有被创建的.<br>当其他模块引用了当前模块未被创建的对象时就会出现错误, 这就是循环导入.</p></blockquote><p><strong>解决方法</strong></p><ol><li>等…..当前模块的对象创建完成后再导入有循环导入冲突的模块</li><li>两个有循环导入冲突的模块都互相导入对方的模块, 不导入模块里面的对象</li></ol>]]></content>
+    <content type="html"><![CDATA[<p>一句话解释这个问题: 在当前模块执行<code>import</code>的这些模块中, 导入了当前模块未创建的对象</p><a id="more"></a><p><strong>很啰嗦的解释这个问题:</strong></p><blockquote><p>我们知道,程序是从上至下运行的.<br><code>python</code>程序在<code>import</code>中去创建各个模块的名字空间, 且本模块未被执行的代码所代表的对象是没有被创建的.<br>当其他模块引用了当前模块未被创建的对象时就会出现错误, 这就是循环导入.</p></blockquote><p><strong>解决方法</strong></p><p>等…..当前模块的对象创建完成后再导入有循环导入冲突的模块</p>]]></content>
     
     <summary type="html">
     

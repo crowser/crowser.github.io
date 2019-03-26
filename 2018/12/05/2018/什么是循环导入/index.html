@@ -5,10 +5,7 @@
 <p>我们知道,程序是从上至下运行的.<br><code>python</code>程序在<code>import</code>中去创建各个模块的名字空间, 且本模块未被执行的代码所代表的对象是没有被创建的.<br>当其他模块引用了当前模块未被创建的对象时就会出现错误, 这就是循环导入.</p>
 </blockquote>
 <p><strong>解决方法</strong></p>
-<ol>
-<li>等…..当前模块的对象创建完成后再导入有循环导入冲突的模块</li>
-<li>两个有循环导入冲突的模块都互相导入对方的模块, 不导入模块里面的对象</li>
-</ol>
+<p>等…..当前模块的对象创建完成后再导入有循环导入冲突的模块</p>
 </div></article></div></main><footer><div class="paginator"><a href="/2019/02/28/2019/别再裸字符串处理上走太远：对手写SQL说不/" class="prev">PREV</a><a href="/2018/11/04/2018/年轻人经济随想/" class="next">NEXT</a></div><div id="disqus_thread"></div><script>var disqus_shortname = 'crowsers-blog';
 var disqus_identifier = '2018/12/05/2018/什么是循环导入/';
 var disqus_title = '什么是循环导入';
