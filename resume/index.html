@@ -24,8 +24,7 @@
 <blockquote>
 <p>单元测试覆盖率: 80+</p>
 <p>使用<strong>python</strong>、<strong>grpc</strong>编写的子服务, 涉及到并发数据处理, 缓存处理</p>
-<p>由于python没有完善的grpc框架, 所以参照flask、扇贝的开源项目<a href="https://github.com/shanbay/sea" target="_blank" rel="noopener">sea</a>编写了一套框架,</p>
-<p>集成了sqlalchemy, redis, sentry等工具.</p>
+<p>由于python没有完善的grpc框架, 所以参照flask、扇贝的开源项目<a href="https://github.com/shanbay/sea" target="_blank" rel="noopener">sea</a>编写了一套框架,封装了grpc 应用, 实现了配置加载, 中间件, rpc调用失败重试等功能,集成了sqlalchemy, redis, sentry, logging等工具.</p>
 <p>因为单表数据量过大, 采用了日期分表策略, 在代码层面实现了分表查找的通用逻辑. </p>
 </blockquote>
 <ul>
@@ -33,7 +32,9 @@
 </ul>
 <blockquote>
 <p>单元测试覆盖率: 85+</p>
-<p>基于Django, 前后端分离的<strong>PaaS</strong>服务, 最大的难点在于保单数据关系模型极其复杂, 依赖于主系统的账号、权限、保险公司、出单员、车辆信息等模型,  合理的表设计, 以及数据解耦是我在这个项目中做的最重要的事情.</p>
+<p>基于Django, 前后端分离的<strong>PaaS</strong>服务</p>
+<p>我的主要工作是按照产品原型拆分restful风格接口, mysql表设计, 以及view实现. </p>
+<p>最大的难点在于保单数据关系模型极其复杂, 依赖于主系统的账号、权限、保险公司、出单员、车辆信息等模型,  合理的表设计, 以及数据解耦是我在这个项目中做的最重要的事情.</p>
 </blockquote>
 <h4 id="歌尔声学股份有限公司-（-2017年3月-2017年6月-）"><a href="#歌尔声学股份有限公司-（-2017年3月-2017年6月-）" class="headerlink" title="歌尔声学股份有限公司 （ 2017年3月 ~ 2017年6月 ）"></a>歌尔声学股份有限公司 （ 2017年3月 ~ 2017年6月 ）</h4><ul>
 <li><h6 id="机械手示教器"><a href="#机械手示教器" class="headerlink" title="机械手示教器"></a>机械手示教器</h6></li>
@@ -82,7 +83,7 @@
 <li><p>微服务</p>
 <blockquote>
 <p>熟悉 grpc | protobuf</p>
-<p>熟练服务拆分</p>
+<p>熟练服务拆分, 理解幂等机制</p>
 <p>熟练使用docker, docker-compose 等工具</p>
 </blockquote>
 </li>
@@ -91,7 +92,7 @@
 <p>熟练使用 <strong>mysql</strong>, <strong>mongodb</strong>, <strong>redis</strong></p>
 <p>熟练mysql表设计, 拆分, 以及建立关系模型</p>
 <p>熟练使用<strong>redis</strong>进行缓存处理</p>
-<p>理解数据并发安全性, 及其编码方式</p>
+<p>理解数据并发安全性,</p>
 </blockquote>
 </li>
 <li><p>基本技能</p>
@@ -107,7 +108,7 @@
 </li>
 </ul>
 <h2 id="me"><a href="#me" class="headerlink" title="me"></a>me</h2><p>我在每次写 <strong>if</strong> 语句前都要思考好几遍, 这里怎么写才能让以后维护它的人看的更轻松. </p>
-<p>​                                                                — 没有代码洁癖的程序员不是好的艺术家</p>
+<p>​                                                            — 好的代码就是能够被别人轻易读懂的代码</p>
 </div></article></div></main><footer><div class="paginator"></div><div id="disqus_thread"></div><script>var disqus_shortname = 'crowsers-blog';
 var disqus_identifier = 'resume/index.html';
 var disqus_title = 'Resume';
